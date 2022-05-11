@@ -1,0 +1,39 @@
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+
+ *{
+  font-family: 'Roboto';
+ }
+
+ #map {
+    text-align: center;
+    height: 70%;
+    width: 60%;
+    margin-left: 10px;
+  }
+
+ .quiz {
+  text-align: left;
+  padding-left: 15px;
+  height: 70%;
+  width: 35%;
+  float: right;
+  margin-right: 10px;
+
+ }
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 20;
+  }
+
+.main-content  {
+  padding-bottom: 30px;
+  text-align: center;
+    /*display: flex;*/
+    height: 100%;
+}
+

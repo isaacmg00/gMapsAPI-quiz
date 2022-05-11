@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google Maps API Project</title>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+        <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500,700|Google+Sans+Text:400&amp;lang=en">
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script type="module" src="index.js"></script>
+        <script src="https://unpkg.com/popmotion@8.1.24/dist/popmotion.global.min.js"></script>
+    </head>
+
+    <body>
+        <div class="main-content">
+            <h1>CSUN Map Quiz</h1>
+            <p>Guess where the location is!</p>
+            <p style="padding-bottom: 20px;">Directions: You will be asked to double click on the map where you think the prompted building is. The quiz is 5 questions long.</p>
+
+            <div class="quiz">
+                <p id="q1" class="response">1. Where is the Oviatt Library?</p>
+                <p id="a1" class="response"></p>
+                <p id="q2"></p>
+                <p id="a2" class="response"></p>
+                <p id="q3"></p>
+                <p id="a3" class="response"></p>
+                <p id="q4"></p>
+                <p id="a4" class="response"></p>
+                <p id="q5"></p>
+                <p id="a5" class="response"></p>
+                <p id="res"></p>
+
+            </div>
+            <div class="map" id="map"></div>
+        </div>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAq0vzlzzrEiMJNOXF_MEWLgqRNSnVFozE&callback=initMap&v=weekly" defer></script>
+
+    </body>
+
+</html>
